@@ -54,6 +54,7 @@ public class AdminController {
             }else {
                 session.setAttribute("successMsg", "Saved Successfully");
             }
+            
         }
         return "redirect:/admin/category";
     }
